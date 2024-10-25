@@ -1,0 +1,52 @@
+/* Login.css */
+.formulario-login{
+  display: flex;
+  flex-direction: column;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    background-color: #f5f5f5; /* Color de fondo */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+  }
+  
+  input {
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 300px; /* Ancho del campo de entrada */
+    border: 1px solid #ccc; /* Borde del campo */
+    border-radius: 5px; /* Bordes redondeados */
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff; /* Color del botón */
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  
+  button:hover {
+    background-color: #0056b3; /* Color del botón al pasar el ratón */
+  }
+  
+  .error-message {
+    color: red; /* Color del mensaje de error */
+    margin-top: 10px;
+  }
+  

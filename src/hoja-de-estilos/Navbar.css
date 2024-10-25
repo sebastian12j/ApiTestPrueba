@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #f8f9fa;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .navbar-left h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333;
+  }
+  
+  .navbar-left p {
+    margin: 0;
+    color: #777;
+  }
+  
+  .navbar-right .icon {
+    width: 24px;
+    height: 24px;
+    margin-left: 15px;
+  }
+  

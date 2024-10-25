@@ -1,0 +1,12 @@
+.iniciologo {
+    height: 100vh; /* Ajusta para centrar verticalmente la imagen en toda la pantalla */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imagen-logo {
+    max-width: 150px; /* Ajusta el ancho máximo de la imagen para hacerla más pequeña */
+    width: 100%; /* Asegura que la imagen mantenga sus proporciones */
+    height: auto;
+}
